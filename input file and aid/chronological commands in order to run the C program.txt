@@ -1,0 +1,21 @@
+(assuming we are on the right path)
+
+1. compile:
+
+gcc -ansi -Wall -Wextra -Werror -pedantic-errors spkmeans.c -lm -o spkmeans
+
+
+2. for each given case:
+
+(assuming we regard the data at "input_a_rami")
+
+spkmeans 0 spk input_a_rami.txt
+
+spkmeans 0 wam input_a_rami.txt
+
+spkmeans 0 ddg input_a_rami.txt
+
+spkmeans 0 lnorm input_a_rami.txt
+
+spkmeans 0 jacobi input_a_rami.txt
+
