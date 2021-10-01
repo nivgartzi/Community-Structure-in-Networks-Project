@@ -1,9 +1,8 @@
 (assuming we are on the right path)
 
-1.build command:
+1.build command (building the extension):
 
 python setup.py build_ext --inplace
-
 
 **note: if 'python' doesn't work, try 'python3' instead.
 
